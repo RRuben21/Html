@@ -1,0 +1,138 @@
+
+h1 {
+    width: 550px;
+    background-color: #f7d694;
+    color: rgb(92, 92, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 5px solid black;
+    margin-right:auto;
+    margin-left: auto;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+nav{
+    
+    font-size: larger;
+    width: fit-content;
+    background-color: #f7d694;    padding: 10px;
+    border-radius: 5%;
+    border: 5px solid black;
+    
+}
+nav a{
+    padding:10px;
+    background-color: rgb(121, 121, 121);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;}
+nav a:hover{
+    padding: 10px;
+    background-color: rgb(250, 145, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+
+#container {
+    height: 300px;
+    width: 550px;
+    background-color: #f7d694;
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 50px;
+    grid-template-rows: 100px 1fr 1fr;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 3%;
+}
+
+#weight-input{
+    height: 25px;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self: center;
+}
+#wlabel {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+
+#height-input{
+    height: 25px;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: center;
+}
+#hlabel {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+
+#bmi-output {
+    height: 25px;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    align-self: center;
+}
+#bmilabel {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#btn {
+    height: 25px;
+    width: 75px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+#table {
+    height: 160px;
+    width: 550px;
+    background-color: #f7d694;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 3%;
+}
+
+table, th, td {
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+footer{
+    padding: 5px;
+    width:500px;
+    background-color: #f7d694;
+    color:gray;
+    border: 5px solid black;
+}

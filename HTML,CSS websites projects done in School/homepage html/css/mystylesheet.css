@@ -1,0 +1,84 @@
+#body{
+    background-image: url("./images/carbon_fibre.jpg");
+    background-color: #FFE4B5;
+    color:#ee5e0a;
+    font-size:23px;
+    
+}
+h1{text-align: center;
+}
+#nameOfBlock img{
+    height: 600px;
+    border-radius: 10%;
+    border: 10px solid rgb(97, 99, 99);
+    box-shadow: 0px 0px 20px #fff;
+}
+#nameOfBlock{
+    float: right;
+    margin-right: 50px;
+    margin-top:10px;
+   margin-bottom: 100px;
+}
+#tableContent table td{
+    border:2px solid white;
+    margin: 0px;
+    padding: 3px;
+}
+#tableContent{
+    clear:both;
+    float:right;
+    margin-right: 50px;
+    margin: top 50px;
+    margin-bottom: 50px;
+}
+#tableContent table{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+tbody>:nth-child(1){background-color: black;color: white;}
+tbody>:nth-child(2){background-color: red;color: rgb(107, 253, 9);}
+tbody>:nth-child(3){background-color: darkorange;color: blue;}
+tbody>:nth-child(4){background-color: yellow;color: darkcyan;}
+tbody>:nth-child(5){background-color: green;color: purple;}
+tbody>:nth-child(6){background-color: blue;color: yellow;}
+tbody>:nth-child(7){background-color: indigo;color: yellow;}
+tbody>:nth-child(8){background-color: white;color:black;}
+
+tbody>tr>:nth-child(1){font-weight: bold;}
+tbody>tr>:nth-child(2){font-style: italic;}
+
+#formContent{
+    
+    clear:both;
+    float:left;
+    margin-right: 50px;
+    margin: top 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    border: 10px solid #ee5e0a;
+}
+footer{
+    font-size:small;
+    position:fixed;
+    bottom:0;
+}
+nav li{
+    display:inline;
+    padding:0;
+    margin:0;
+}
+nav a{
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    padding:10px;
+    background-color: burlywood;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+nav a:hover{
+    padding: 10px;
+    background-color: chartreuse;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30px;
+}

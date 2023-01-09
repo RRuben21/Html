@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Using JavaScript on Forms</title>
+        <link rel="stylesheet" href="css/myStyleSheet.css">
+        <style>
+            body{
+                background-image: url("images/BACKGROUND.jpg");
+                height: 800px; 
+                background-position: center;
+                background-repeat: no-repeat; 
+                background-size: cover;
+                
+            }
+        </style>
+    </head> 
+
+    <body>
+        <h1>Practicing Using JavaScript on Forms</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Assignment 6</a></li><br>
+                <li><a href="practice.html">Practice Forms</a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <div class="col-container">
+        <div class="flex-container">
+    <div>
+        <div id="form1">
+        <form>
+            <label for="hours">Hours:</label><br>
+            <input type="text" id="hours" name="hours" value=""><br>
+            
+            <label for="payrate">Pay Rate:</label><br>
+            <input type="text" id="payrate" name="payrate" value=""><br>
+
+            <label for="wage">Wage:</label><br>
+            <input type="output" id="wage" name="wage" value="" disabled><br><br>
+
+            <input type="button" value="Calculate Wage" onclick = "calculateWage()">
+        </form>
+        </div>
+    </div>
+    <div>
+        <div id="form2">
+        <form>
+            </p>Entree:</p>
+            <input type="radio" id="hamburgerEntree" name="mainEntree" value="3" onchange="calculateLunch()"><label for="hamburgerEntree">Hamburger $3.00</label>
+            <input type="radio" id="pizzaEntree" name="mainEntree" value="4.99" onchange="calculateLunch()"><label for="pizzaEntree">Pizza (med) $4.99 </label>
+            <input type="radio" id="hotdogEntree" name="mainEntree" value="1.99" onchange="calculateLunch()"><label for="hotdogEntree">Hot Dog $1.99</label>
+            
+            <p>Drink:</p>
+            <input type="radio" id="fountainDrink" name="drink" value="1.5" onchange="calculateLunch()"><label for="fountainDrink">Fountain Drink $1.50</label>
+            <input type="radio" id="water" name="drink" value="1" onchange="calculateLunch()"><label for="water">Water $1.00</label>
+            <input type="radio" id="none" name="drink" value="0" onchange="calculateLunch()"><label for="none">None $0.00</label>
+
+            <p>Options</p>
+            <input type="checkbox" id="fries" name="options" value="1" onchange="calculateLunch()"><label for="fries">Fries $1.00</label>
+            <input type="checkbox" id="onionRings" name="options" value="1.50" onchange="calculateLunch()"><label for="onionRings">Onion Riongs $1.50</label>
+            <input type="checkbox" id="cheeseSticks" name="options" value="2.00" onchange="calculateLunch()"><label for="cheeseSticks">Cheese Sticks $2.00</label>
+            <br>
+        </form>
+
+            <p><span id="lunchAmount">$ - </span></p>
+        </div>
+    </div>
+    <div>
+        <div id="form3">
+            <form>
+                <p>The Loredo Company</p>
+                <label for="baconandegg">Bacon and Egg Taco</label>
+                <select name="baconandegg" id="baconandegg">
+                    <option selected="selected" value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select><br>
+                <input type="checkbox" id="addBacon1" name="addBacon1" value="0.75"><label for="addBacon1">Add Bacon</label>
+                <input type="checkbox" id="addBeans1" name="addBeans1" value="0.75"><label for="addBenas1">Add Beans</label>
+                <input type="checkbox" id="addCheese1" name="addCheese1" value="0.75"><label for="addCheese1">Add Cheese</label>
+                <br>
+                <label for="potatoandegg">Potato and Egg</label>
+                <select name="potatoandegg" id="potatoandegg">
+                    <option selected="selected" value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select><br>
+                <input type="checkbox" id="addBacon2" name="addBacon2" value="0.75"><label for="addBacon2">Add Bacon</label>
+                <input type="checkbox" id="addBeans2" name="addBeans2" value="0.75"><label for="addBenas2">Add Beans</label>
+                <input type="checkbox" id="addCheese2" name="addCheese2" value="0.75"><label for="addCheese2">Add Cheese</label>
+                <br>
+                <label for="hamandegg">Ham and Egg</label>
+                <select name="hamandegg" id="hamandegg">
+                    <option selected="selected" value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select><br>
+                <input type="checkbox" id="addBacon3" name="addBacon3" value="0.75"><label for="addBacon3">Add Bacon</label>
+                <input type="checkbox" id="addBeans3" name="addBeans3" value="0.75"><label for="addBenas3">Add Beans</label>
+                <input type="checkbox" id="addCheese3" name="addCheese3" value="0.75"><label for="addCheese3">Add Cheese</label>
+                <p id="tacoTotal">$ - </p>
+                <input type="button" value="Calculate Tacos Cost" onclick="calculateTacos()">
+            </forM>
+        </div>
+        </div>
+    </div>
+        <script src="scripts/myScripts.js"></script>
+    </body>
+</html>

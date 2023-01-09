@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Style Sheets for Different Media</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet", href="css/printcss.css" ></link>
+    </head>
+
+    <body>
+        <div id="container">
+            <header id="banner">
+                
+                
+                <h1>CSS Style Sheets for Different Media</h1>
+            </header>
+        </div>
+
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mobilesample.html">Mobile View Sample</a></li>
+                <li><a href="printsample.html">Print View Sample</a></li>
+            </ul>
+          
+        </nav>
+
+        <aside id="complementary">
+            <h3>Responsive Web Design</h3>
+            <p>Responsive Web Design is about using HTML and CSS to automatically resize, hide, shring, or enlarge, to make
+                it look good on all devices (desktops, tablets, and phones).<a href="https://www.youtube.com/watch?v=ZYV6dYtz4HA" target="blank">An example with ONE CSS file instead of three CSS files</a></p>
+            <h3>Something to think about!</h3>
+            <p>The book uses multiple style sheets and the video above uses ONE style sheet.  Think about the advantages and disadvantages of both approaches.</p>
+        </aside>
+
+        <main id="content">
+            <h2>Mobile Web Design Best Practices</h2>
+            <h3>Design Considerations</h3>
+            <p>Mobile web users are typically on-the-go, need information quickly and they are easily distracted. A web page that is optizmized for mobile access should try to serve these needs.</p>
+            <ul>
+                <li>Optimize Layout for Mobile Use</li>
+                <li>Optimize Navigation to Mobile Use</li>
+                <li>Optimize Graphics for Mobile Use</li>
+                <li>Optimize Text for Mobile Use</li>
+            </ul>
+            <h3>CSS3 Media Queries</h3>
+            <p>There are two approaches on how to select the CSS that should be applied to the device.</p>
+            <ol>
+                <li>
+                    Media Query Example Using a Link Element
+                </li>
+                <ul>
+                    <li>&lt;link href=&quot;nameOfStyleSheet.css&quot; rel=&quot;stylesheet&quot; media=&quot;only screen and (max-width: 480px)&quot;&gt;</li>
+                </ul>
+                <li>
+                    Media Query Example Using an @media Rule
+                </li>
+                <ul>
+                    <li>media only screen and (max-width: 480px){ /* css rules; */ }</li>
+                </ul>
+            </ol>
+            <img src="images/displays.jpg" alt="Show different display sizes">
+        </main>
+
+        <script src="scripts/jvs.js"></script>
+<footer>
+    <p>Copyright &copy <div id="display_name"></div>
+        <script> display_name()</script> 
+        <script>gettime()</script> </p>
+    
+</footer>
+    </body>
+
+</html>

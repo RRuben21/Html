@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(3, 90, 61);
+    color: azure;
+    margin-left: 10px;
+    
+}
+h1{text-align: center;}
+h2{margin-left: 10px;}
+hr{
+    height: 5px;
+    background-color: rgb(70, 130, 241);
+    width: 96%;
+}
+#imgcss img{
+    
+    border-radius: 10%;
+    border: 10px solid rgb(0, 0, 0);
+}
+#table1 {
+    
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#table1 table td{
+    border:3px solid rgb(159, 192, 11);
+    padding: 5px;
+}
+#form1 {
+    border: 5px solid yellow;
+    background-color: brown;
+    padding: 5px;
+}
+#form2 {
+    margin-left: 100px;
+    height:220px;
+    width: 350px;
+    border: 5px solid gray;
+    background-color: rgb(2, 59, 59);
+    padding: 5px;
+}
+#table2 {
+    position:absolute;
+    top:500px;
+    right: 700px;
+    float: right;
+}
+#imgcss2 {
+    position:absolute;
+    top:500px;
+    right:150px;
+}
+#imgcss2 img{
+    border-radius: 10%;
+    border: 10px solid black;
+
+}
+#table2 table td{
+    border: 3px solid rgb(159, 192, 11);
+    padding: 5px;
+}
+#table2 {
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#table3 table td{
+    border: 3px solid rgb(159, 192, 11);
+    padding: 5px;
+}
+#table3 {
+    margin-left: 100px;
+    float: left;
+
+}
+#table3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
+}
+#form3 {
+    position: absolute;
+    right: 150px;
+    top: 880px;
+}
+#form3 {
+    margin-left: 100px;
+    height:220px;
+    width: 350px;
+    border: 5px solid rgb(247, 114, 6);
+    background-color: rgb(77, 4, 136);
+    padding: 5px;
+    
+
+}
+
+#imgcss3 img{
+    
+    border-radius: 10%;
+    border: 10px solid black;
+}
+#imgcss3 {
+    position: absolute;
+    top:880px ;
+    right: 825px;
+}

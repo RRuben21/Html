@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(243, 204, 156);
+}
+.flex-container {
+    justify-content: space-evenly;
+  display: flex;
+  
+  background-color: black;
+  
+}
+.flex-container > div {
+    background-color: #dfd9d9;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    justify-content: space-evenly;
+  }
+.column {
+    
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#container{
+ text-align: center;
+}
+footer{
+    text-align: center;
+}
+nav {
+  font-size: larger;
+  padding: 5%;
+  
+}
+
+nav a:hover{
+  background-color: rgb(110, 184, 245);
+  
+}

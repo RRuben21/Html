@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+    color: rgb(117, 11, 11);
+}
+ol{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+#container{
+    text-align: center;
+}
+#navigation{
+    text-align: center;
+}
+#complementary{
+    text-align: center;
+}
+#content{
+    text-align: center;
+}
+nav a:hover{
+    background-color: rgb(110, 184, 245);
+    
+  }

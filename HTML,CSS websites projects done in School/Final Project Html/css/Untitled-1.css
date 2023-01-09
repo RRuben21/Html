@@ -1,0 +1,182 @@
+h1{
+    text-align: center;
+}
+h2{
+  text-align: center;
+  font-size: x-large;
+}
+h3{
+  font-size: x-large;
+}
+hr{
+  max-width: 95%;
+}
+p.indent{
+  text-indent: 30px;
+  font-size: x-large;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+.active {
+    background-color: #db0808;
+  }
+#homePagePhoto img{
+    display:block;
+    border: 10px solid #333;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    height:10%;
+  }
+ 
+tr:nth-child(even) 
+  {background-color: #f2f2f2;}
+  
+#icons img{
+    height: 45px;
+    position:absolute;
+    top:15px;
+    right: 15px;
+  }
+#van img{
+  margin-left: 30px;
+  border: 10px solid #333;
+  border-radius: 10px;
+  height:400px;
+  width:500px;
+}
+#cargotruck img{
+  margin-left: 30px;
+  border: 10px solid #333;
+  border-radius: 10px;
+  height: 400px;
+  width: 500px;
+}
+#suppermover img{
+  margin-left: 30px;
+  border: 10px solid #333;
+  border-radius: 10px;
+  height:400px;
+  width:500px;
+}
+#table{
+  font-size: xx-large;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+#text{
+  text-align: center;
+  font-size: xx-large;
+  font-family: Brush Script MT;
+ 
+}
+#text1{
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+#form3 {
+  
+  margin-left: 40%;
+  margin-right: 40%;
+}
+#form3 {
+  font-size: large;
+  height:220px;
+  width: 350px;
+  border: 10px solid #333;
+  background-color: whitesmoke;
+  padding: 5px;
+  
+}
+button {
+  background-color:#333;
+  color: whitesmoke;
+  border:none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left:80%;
+  padding:20px 50px;
+  font-size:30px;
+  font-weight: bold;
+}
+#button1{
+  
+    background-color:#333;
+    color: whitesmoke;
+    border:none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 110%;
+    left:80%;
+    padding:20px 50px;
+    font-size:30px;
+    font-weight: bold;
+  
+}
+#button2{
+  
+  background-color:#333;
+  color: whitesmoke;
+  border:none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 165%;
+  left:80%;
+  padding:20px 50px;
+  font-size:30px;
+  font-weight: bold;
+
+}
+#van1 img{
+  margin-left: 1300px;
+  border: 10px solid #333;
+  border-radius: 10px;
+  height:400px;
+  width:500px;
+}
+#cargotruck1 img{
+  margin-left: 30px;
+  border: 10px solid #333;
+  border-radius: 10px;
+  height: 400px;
+  width: 500px;
+}
+#suppermover1 img{
+  margin-left: 1300px;
+  border: 10px solid #333;
+  border-radius: 10px;
+  height:400px;
+  width:500px;
+}
+#list{
+  font-size: large;
+  margin-left: 45%;
+  margin-right: 45%;
+}
